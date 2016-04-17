@@ -1,6 +1,6 @@
 # Simapro-CSV-converter
-Python 2.7 script that converts a life cycle inventory (LCI) from Excel into Simapro CSV format
-Author(Year): Massimo (2016)
+Python 2.7 script that converts a life cycle inventory (LCI) from Excel into Simapro CSV format  
+by Massimo (2016)
 
 
 **What the script does:**
