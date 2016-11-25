@@ -18,6 +18,12 @@ by Massimo (2016)
 (all these parameters can be specified directly in the .csv file though)
 
 
+**Requirements:**
+
+* python 2.7
+* [xlrd](https://pypi.python.org/pypi/xlrd#downloads) module [installed](https://packaging.python.org/installing/) (default if python was installed via [Anaconda] (https://docs.continuum.io/anaconda/pkg-docs))
+
+
 **Instructions:**
 
 1. Install Python...
