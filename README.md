@@ -26,10 +26,9 @@ by Massimo (2016)
 
 **Instructions:**
 
-1. Install Python...
-2. Prepare the life cycle inventory in Excel, save it in the same folder as the Python script
-3. From shell, navigate into the folder and type "python script_name myfile_name"
-4. From SimaPro, use Import>File and the following settings: 
+1. Prepare the life cycle inventory in Excel, save it in the same folder as the Python script
+2. From shell, navigate into the folder and type "python script_name myfile_name"
+3. From SimaPro, use Import>File and the following settings: 
 	* File format: "SimaPro CSV" 
 	* Object link method: "Try to link imported objects to existing objects first"
 	* CSV format separator: "Tab"
