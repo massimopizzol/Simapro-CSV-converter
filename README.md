@@ -38,7 +38,7 @@ by Massimo (2016)
 **Compiling LCIs in Excel and worked example:**
 
 The Excel file attached includes two fictional LCIs. 
-From shell, typing "python LCAscript_v1.2.py LCI_Example.xlsx" returns the two files LCI1.csv and LCI2.csv to be imported into SimaPro.
+From shell, typing `python LCAscript_v1.2.py LCI_Example.xlsx` returns the two files LCI1.csv and LCI2.csv to be imported into SimaPro.
 
 * Cells A1:D6 are fixed, do not insert rows or columns there
 * Each column is a process of the foreground system, and is matched by an identically named row and in the same order (see that E7:G9 in the example is a square matrix)
