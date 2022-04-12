@@ -20,7 +20,7 @@ by Massimo (2016)
 
 **Requirements:**
 
-* python 2.7
+* python 2.7 or higher
 * [xlrd](https://pypi.python.org/pypi/xlrd#downloads) module [installed](https://packaging.python.org/installing/) (default if python was installed via [Anaconda] (https://docs.continuum.io/anaconda/pkg-docs))
 
 
@@ -46,12 +46,15 @@ From shell, typing `python LCAscript_v1.2.py LCI_Example.xlsx` returns the two f
 * Use "Raw", "Air", "Water", "Soil", "Waste", "Social", "Economic"  to indicate exchanges
 * Use "Wastetotreatment" to indicate database processes of the waste treatment category
 
-**UPDATE 2017: Python3 function to convert a pd.dataframe object in simapro.csv file**
+**UPDATE 2017: Python3 function to convert a pandas dataframe object in simapro.csv file**
+
+Requires pandas library
 
 Save the __spcsv.py__ file in your working directory and use the __to_spcsv__ function in this way:
 
 ```python
 from spcsv import *
+import pandas as pd
 
 spcsv_ready = pd.read_excel('LCI_Example.xlsx', 'LCI1', index = False, header = None)
 
