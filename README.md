@@ -56,7 +56,7 @@ Save the __spcsv.py__ file in your working directory and use the __to_spcsv__ fu
 from spcsv import *
 import pandas as pd
 
-spcsv_ready = pd.read_excel('LCI_Example.xlsx', 'LCI1', index = False, header = None)
+spcsv_ready = pd.read_excel('LCI_Example.xlsx', 'LCI1', index_col = False, header = None)
 
 to_spcsv(spcsv_ready, 'LCI1.csv')
 ```
