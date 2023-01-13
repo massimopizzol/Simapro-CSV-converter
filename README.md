@@ -46,8 +46,6 @@ Running the code returns the two files LCI1.csv and LCI2.csv to be imported into
 * Use "Raw", "Air", "Water", "Soil", "Waste", "Social", "Economic"  to indicate exchanges
 * Use "Wastetotreatment" to indicate database processes of the waste treatment category
 
-Of course one can create his own dataframe directly in python (maybe I'll upload a tutorial at some point) with the same structure of the one above...or change the spcsv.py code to reflect other structures.
-
 
 **Running the code**
 
@@ -67,6 +65,6 @@ to_spcsv(spcsv_ready, 'LCI1.csv')
 If you want to runt his from command line:
 
 
-* Using python 3 and the spcsv.py module. The `spccsv_comm_line.py` file is an example: `python spcsv_comm_line.py <myfile_name.xlsx>`
+* Using python 3 and the spcsv.py module. The `spccsv_comm_line.py` file is an example to obtain multiple .csv files interatively: `python spcsv_comm_line.py <myfile_name.xlsx>`
 
 * The old way (not really recommended). This was designed for python 2.7 long time ago. From shell, navigate into the folder and type `python LCAscript_v1.2.py <myfile_name.xls>` Note that [xlrd does not support .xlsx files anymore](https://stackoverflow.com/questions/65250207/pandas-cannot-open-an-excel-xlsx-file) so to make this work save yuor excel file in .xls format.
